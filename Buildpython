@@ -1,0 +1,19 @@
+import os
+
+List1 = [8,5,6,9,10]
+List1.reverse()
+print("The reversed list is",List1)
+
+
+List2 =[15,65,47,12,34,98,36,75]
+List2.sort()
+print(List2)
+
+
+List3 =[]
+List3 = List1.copy()
+print("List3 =",List3)
+
+indexvalue=List2[2:6]
+
+print("The index value are ",indexvalue)
